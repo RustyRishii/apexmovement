@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 
 //https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-concept-art/apex-concept-art-wallpaper-octane.jpg
 
+//bg-[url('https://gmedia.playstation.com/is/image/SIEPDC/apex-legends-clubs-screen-01-ps4-en-19jan21?$facebook$')] bg-no-repeat bg-cover
+
 export default function Home() {
   const handleScroll = () => {
     const targetElement = document.getElementById("explore-section");
@@ -21,11 +23,11 @@ export default function Home() {
           Directory of all the Apex Legends movement Techniques
         </h1>
         <a
-          href="https://linktr.ee/rustyrishii"
-          className="transform hover:scale-110 hover:underline transition-transform "
+          href="https://linktr.ee/rustyrishi"
+          className="transform hover:scale-110 transition-transform "
           target="blank"
         >
-          <p className="text-neutral-100 text-center ">By RustyRishii ↗</p>
+          <p className="text-neutral-100 text-center ">By RustyRishi ↗</p>
         </a>
         <Button
           className="m-10 font-bold"
@@ -35,52 +37,9 @@ export default function Home() {
           Start Exploring ↓
         </Button>
       </div>
-
-      {/* <div
-        id="explore-section"
-        className=" flex flex-wrap justify-center items-center bg-stone-950"
-      >
-        <Link
-          className="border p-40 m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100"
-          href={"/general"}
-        >
-          General Tech
-        </Link>
-        <Link
-          className="border p-40 m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 "
-          href={"/general"}
-        >
-          Legend Tech
-        </Link>
-        <Link
-          className="border p-40 m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 "
-          href={"/general"}
-        >
-          Map tech
-        </Link>
-        <Link
-          className="border p-40 m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 "
-          href={"/general"}
-        >
-          Misc/Mystries
-        </Link>
-        <Link
-          className="border p-40 m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100"
-          href={"/general"}
-        >
-          Removed
-        </Link>
-        <Link
-          className="border p-40 m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 "
-          href={"/general"}
-        >
-          Supergliding
-        </Link>
-      </div> */}
-
       <div
         id="explore-section"
-        className=" flex flex-wrap justify-center items-center bg-stone-950"
+        className=" bg-gradient-to-r from-indigo-500 flex flex-wrap justify-center items-center bg-stone-950"
       >
         <Link
           className="border h-96 w-96 m-10 flex justify-center items-center align-middle bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl "
@@ -103,20 +62,21 @@ export default function Home() {
         </Link>
         <Link
           className="border h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform  text-2xl text-neutral-100 "
-          href={"/general"}
+          href={"/mystries"}
         >
           Misc & Mystries
         </Link>
         <Link
           className="border h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-2xl text-neutral-100"
-          href={"/general"}
+          href={"/removedtech"}
         >
           Removed tech
         </Link>
         <Link
           className="border bg-[url('https://c4.wallpaperflare.com/wallpaper/24/677/207/video-game-apex-legends-octane-apex-legends-hd-wallpaper-preview.jpg')]
           bg-cover bg-center bg-no-repeat text-2xl h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100"
-          href={"/general"}
+          href={"https://apexmovement.tech/superglidetrainer/"}
+          target="_blank"
         >
           Learn supergliding
         </Link>
