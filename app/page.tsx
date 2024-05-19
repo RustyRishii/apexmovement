@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+
 //https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-concept-art/apex-concept-art-wallpaper-octane.jpg
+
 export default function Home() {
   return (
     <main className="h-screen">
@@ -17,23 +19,114 @@ export default function Home() {
           <p className="text-neutral-100 text-center ">By RustyRishii ↗</p>
         </a>
       </div>
-      <div className="">
-        <Link className="p-10" href="/general">
+      <div className="h-screen justify-center items-center flex bg-black">
+        <Link
+          className="p-10 m-5 hover:bg-neutral-900 border rounded-lg hover:scale-110 transition-transform text-neutral-100 border-neutral-100"
+          href="/general"
+        >
           General Movement Tech
         </Link>
-        <Link className="p-10" href="/legendspecific">
+        <Link
+          className="p-10 m-5 hover:bg-neutral-900 border rounded-lg hover:scale-110 transition-transform text-neutral-100 border-neutral-100"
+          href="/legendspecific"
+        >
           Legend Specific Tech
         </Link>
-        <Link className="p-10" href="/legendspecific">
+        <Link
+          className="p-10 m-5 hover:bg-neutral-900 border rounded-lg hover:scale-110 transition-transform text-neutral-100 border-neutral-100"
+          href="/legendspecific"
+        >
           Map Specific tech
         </Link>
-        <Link className="p-10" href="/legendspecific">
+        <Link
+          className="p-10 m-5 hover:bg-neutral-900 border rounded-lg hover:scale-110 transition-transform text-neutral-100 border-neutral-100"
+          href="/legendspecific"
+        >
           Misc & Mysteries
         </Link>
-        <Link className="p-10" href="/legendspecific">
+        <Link
+          className="p-10 m-5 hover:bg-neutral-900 border rounded-lg hover:scale-110 transition-transform text-neutral-100 border-neutral-100"
+          href="/legendspecific"
+        >
           Removed tech
         </Link>
       </div>
+      <div className=" flex flex-wrap justify-center items-center bg-lime-600">
+        <Link
+          className="border p-40 m-10 justify-center items-center "
+          href={"/general"}
+        >
+          general
+        </Link>
+        <Link
+          className="border p-40 m-10 justify-center items-center "
+          href={"/general"}
+        >
+          general
+        </Link>
+        <Link
+          className="border p-40 m-10 justify-center items-center "
+          href={"/general"}
+        >
+          general
+        </Link>
+        <Link
+          className="border p-40 m-10 justify-center items-center "
+          href={"/general"}
+        >
+          general
+        </Link>
+        <Link
+          className="border p-40 m-10 justify-center items-center "
+          href={"/general"}
+        >
+          general
+        </Link>
+        <Link
+          className="border p-40 m-10 justify-center items-center "
+          href={"/general"}
+        >
+          general
+        </Link>
+      </div>
+      {/* <div className="flex flex-wrap bg-lime-600">
+        <Link
+          className="border p-36 m-10 flex justify-center items-center w-full md:w-1/2 lg:w-1/3"
+          href={"/general"}
+        >
+          general
+        </Link>
+        <Link
+          className="border p-36 m-10 flex justify-center items-center w-full md:w-1/2 lg:w-1/3"
+          href={"/general"}
+        >
+          general
+        </Link>
+        <Link
+          className="border p-36 m-10 flex justify-center items-center w-full md:w-1/2 lg:w-1/3"
+          href={"/general"}
+        >
+          general
+        </Link>
+        <Link
+          className="border p-28 m-10 flex justify-center items-center w-full md:w-1/2 lg:w-1/3"
+          href={"/general"}
+        >
+          general
+        </Link>
+        <Link
+          className="border p-32 m-10 flex justify-center items-center w-full md:w-1/2 lg:w-1/3"
+          href={"/general"}
+        >
+          general
+        </Link>
+        <Link
+          className="border p-32 m-10 flex justify-center items-center w-full md:w-1/2 lg:w-1/3"
+          href={"/general"}
+        >
+          general
+        </Link>
+      </div> */}
     </main>
   );
 }
