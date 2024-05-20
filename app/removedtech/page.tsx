@@ -9,7 +9,7 @@ import { Separator } from "@/components/ui/separator";
 
 const RemovedTech = () => {
   return (
-    <div className="bg-[url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/apex-featured-image-16x9.jpg.adapt.crop191x100.1200w.jpg')] bg-no-repeat bg-cover bg-center h-full">
+    <div className="bg-neutral-900 bg-no-repeat bg-cover bg-center h-full">
       <Header title="Removed tech" />
       <Separator />
       <div className="p-2">

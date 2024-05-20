@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = ({ title }: { title: string }) => {
   return (
-    <div className="flex-row flex justify-between px-10">
+    <div className="flex-row flex justify-between px-5">
       <Link className="text-3xl " href={"/"}>
         🏠
       </Link>
