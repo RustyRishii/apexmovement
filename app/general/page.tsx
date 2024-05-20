@@ -5,9 +5,11 @@ import Header from "../components/header";
 const Page = () => {
   return (
     <div className="bg-black h-screen p-2">
-      <Header title="General Movement " />
+      <Header title="General Movement" />
       <Separator />
-      <h1 className="text-3xl text-neutral-100 py-5">Fundamentals</h1>
+      <div className="flex justify-center items-center text-center">
+        <h1 className="text-3xl text-neutral-100  ">Coming Soon</h1>
+      </div>
     </div>
   );
 };
