@@ -45,26 +45,26 @@ export default function Home() {
           className="border h-96 w-96 m-10 flex justify-center items-center align-middle bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl "
           href={"/general"}
         >
-          General Movement Tech
+          General Movement Tech(Coming soon)
         </Link>
         <Link
           className="border bg-[url('https://editors.dexerto.com/wp-content/uploads/2024/01/03/33512956188_4a169738ea_h-1200x675-1.jpg')] bg-cover bg-center bg-no-repeat h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl "
           href={"/legendspecific"}
         >
-          Legend Specific Tech
+          Legend Specific Tech(Coming soon)
         </Link>
         <Link
           className="border bg-[url('https://pbs.twimg.com/media/FxeNjHuWAAoMo4c.jpg')]
            bg-cover bg-center bg-no-repeat h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl "
           href={"/general"}
         >
-          Map Specific tech
+          Map Specific tech(Coming soon)
         </Link>
         <Link
           className="border h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform  text-2xl text-neutral-100 "
           href={"/mystries"}
         >
-          Misc & Mystries
+          Misc & Mystries(Coming soon)
         </Link>
         <Link
           className="border h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-2xl text-neutral-100"
