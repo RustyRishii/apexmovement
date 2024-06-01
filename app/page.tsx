@@ -8,6 +8,8 @@ import { Button } from "@/components/ui/button";
 
 //bg-[url('https://gmedia.playstation.com/is/image/SIEPDC/apex-legends-clubs-screen-01-ps4-en-19jan21?$facebook$')] bg-no-repeat bg-cover
 
+const linktree = "https://linktr.ee/rustyrishi";
+
 export default function Home() {
   const handleScroll = () => {
     const targetElement = document.getElementById("explore-section");
@@ -23,7 +25,7 @@ export default function Home() {
           Directory of all the Apex Legends movement Techniques
         </h1>
         <a
-          href="https://linktr.ee/rustyrishi"
+          href={linktree}
           className="transform hover:scale-110 transition-transform "
           target="blank"
         >
@@ -42,32 +44,32 @@ export default function Home() {
         className=" bg-gradient-to-r from-indigo-500 flex flex-wrap justify-center items-center bg-stone-950"
       >
         <Link
-          className="border h-96 w-96 m-10 flex justify-center items-center align-middle bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl "
+          className="border h-96 w-96 m-10 flex justify-center items-center align-middle bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl text-pretty text-center"
           href={"/general"}
         >
           General Movement Tech(Coming soon)
         </Link>
         <Link
-          className="border bg-[url('https://editors.dexerto.com/wp-content/uploads/2024/01/03/33512956188_4a169738ea_h-1200x675-1.jpg')] bg-cover bg-center bg-no-repeat h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl "
+          className="border bg-[url('https://editors.dexerto.com/wp-content/uploads/2024/01/03/33512956188_4a169738ea_h-1200x675-1.jpg')] bg-cover bg-center bg-no-repeat h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl text-pretty text-center"
           href={"/legendspecific"}
         >
           Legend Specific Tech(Coming soon)
         </Link>
         <Link
           className="border bg-[url('https://pbs.twimg.com/media/FxeNjHuWAAoMo4c.jpg')]
-           bg-cover bg-center bg-no-repeat h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl "
+           bg-cover bg-center bg-no-repeat h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl text-pretty text-center"
           href={"/general"}
         >
           Map Specific tech(Coming soon)
         </Link>
         <Link
-          className="border h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform  text-2xl text-neutral-100 "
+          className="border h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform  text-2xl text-neutral-100 text-pretty text-center"
           href={"/mystries"}
         >
           Misc & Mystries(Coming soon)
         </Link>
         <Link
-          className="border h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-2xl text-neutral-100"
+          className="border h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-2xl text-neutral-100 text-pretty text-center"
           href={"/removedtech"}
         >
           Removed tech
