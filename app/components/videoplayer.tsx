@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const VideoPlayer = ({ src }: { src: string }) => {
@@ -7,8 +8,9 @@ const VideoPlayer = ({ src }: { src: string }) => {
       width="500"
       height="500"
       preload="auto"
+      muted={true}
       controls
-      //controlsList="nodownload"
+      controlsList="nodownload"
     >
       <source src={src} type="video/mp4" />
       <track kind="subtitles" srcLang="en" label="English" />

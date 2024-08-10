@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import Footer from "./components/footer";
 
 //https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-concept-art/apex-concept-art-wallpaper-octane.jpg
 
@@ -36,7 +37,7 @@ export default function Home() {
           variant={"secondary"}
           onClick={handleScroll}
         >
-          Start Exploring ↓
+          Start Moving ↓
         </Button>
       </div>
       <div
@@ -44,45 +45,58 @@ export default function Home() {
         className=" bg-gradient-to-r from-indigo-500 flex flex-wrap justify-center items-center bg-stone-950"
       >
         <Link
-          className="border h-96 w-96 m-10 flex justify-center items-center align-middle bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl text-pretty text-center"
+          className="border h-80 w-80 m-8 flex justify-center items-center align-middle bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl text-pretty text-center"
           href={"/general"}
         >
-          General Movement Tech(Coming soon)
+          <span className="bg-black bg-opacity-70 px-4  mx-10 py-2 rounded">
+            General Movement Tech(Coming soon)
+          </span>
         </Link>
         <Link
-          className="border bg-[url('https://editors.dexerto.com/wp-content/uploads/2024/01/03/33512956188_4a169738ea_h-1200x675-1.jpg')] bg-cover bg-center bg-no-repeat h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl text-pretty text-center"
+          className="border bg-[url('https://editors.dexerto.com/wp-content/uploads/2024/01/03/33512956188_4a169738ea_h-1200x675-1.jpg')] bg-cover bg-center bg-no-repeat h-80 w-80 flex m-8 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl text-pretty text-center"
           href={"/legendspecific"}
         >
-          Legend Specific Tech(Coming soon)
+          <span className="bg-black bg-opacity-70 px-4  mx-10 py-2 rounded">
+            Legend Specific Tech(Coming soon)
+          </span>
         </Link>
         <Link
           className="border bg-[url('https://pbs.twimg.com/media/FxeNjHuWAAoMo4c.jpg')]
-           bg-cover bg-center bg-no-repeat h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl text-pretty text-center"
-          href={"/general"}
+           bg-cover bg-center bg-no-repeat h-80 w-80 flex m-8 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100 text-2xl text-pretty text-center"
+          href={"/mapspecific"}
         >
-          Map Specific tech(Coming soon)
+          <span className="bg-black bg-opacity-70 px-4  mx-10 py-2 rounded">
+            Map Specific tech(Coming soon)
+          </span>
         </Link>
         <Link
-          className="border h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform  text-2xl text-neutral-100 text-pretty text-center"
+          className="border h-80 w-80 flex m-8 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform  text-2xl text-neutral-100 text-pretty text-center"
           href={"/mystries"}
         >
-          Misc & Mystries(Coming soon)
+          <span className="bg-black bg-opacity-70 px-4  mx-10 py-2 rounded">
+            Misc & Mystries(Coming soon)
+          </span>
         </Link>
         <Link
-          className="border h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-2xl text-neutral-100 text-pretty text-center"
+          className="border h-80 w-80 flex m-8 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-2xl text-neutral-100 text-pretty text-center"
           href={"/removedtech"}
         >
-          Removed tech
+          <span className="bg-black bg-opacity-70 px-4  mx-10 py-2 rounded">
+            Removed tech
+          </span>
         </Link>
         <Link
           className="border bg-[url('https://c4.wallpaperflare.com/wallpaper/24/677/207/video-game-apex-legends-octane-apex-legends-hd-wallpaper-preview.jpg')]
-          bg-cover bg-center bg-no-repeat text-2xl h-96 w-96 flex m-10 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100"
+          bg-cover bg-center bg-no-repeat text-2xl h-80 w-80 flex m-8 justify-center items-center bg-stone-900 hover:bg-stone-800 rounded-xl hover:scale-105 transition-transform text-neutral-100"
           href={"https://apexmovement.tech/superglidetrainer/"}
           target="_blank"
         >
-          Learn supergliding
+          <span className="bg-black bg-opacity-70 px-4  mx-10 py-2 rounded">
+            Learn supergliding
+          </span>
         </Link>
       </div>
+      <Footer />
     </main>
   );
 }
